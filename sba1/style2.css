@@ -1,0 +1,85 @@
+/*__style page for casting page only, page does not use bootstrap*/
+
+* {background-color:rgb(179, 190, 187);}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+#title1 {
+    float: right
+}
+
+#homescreen {
+    float: inline-start;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+#button {
+
+    outline: 0;
+    margin: 20px  10px 10px 6px;
+    border-width:2.7px;
+    font-size: 25px;
+    border-style: solid;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 4px 40px;
+    background-color: rgba(255, 255, 255, 0.091);
+    border-color: #878d8a;
+    color: #525658;
+    transition: all .3s ease-in;
+    opacity: .8;
+    
+
+
+    }
+
+ #button:hover {
+    color: white;
+    background-color: #030c12;
+    transition: all .3s ease-in;
+    }
+
+ 
+block {
+    border-radius: 100%;
+    padding-top: 100%;
+}
+
+.txt {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*__animation*/
+h1 {
+    font-family: fantasy;
+        animation-duration: 3s;
+        animation-name: slidein;
+      }
+      
+      @keyframes slidein {
+        from {
+          translate: 150vw 0;
+          scale: 300% 1;
+        }
+      
+        to {
+          translate: 0 0;
+          scale: 100% 1;
+        }
+      }
+
+
+
+table, th, td {
+  border:2px solid rgb(0, 0, 0);
+  background-color: blanchedalmond;
+}
+

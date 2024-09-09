@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--primarily used bootstrap for styling, I tried to clean up the code, but there's a lot there-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--several input forms on this page-->
+  <body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid" >
+           <div class="navbar-header" >
+            <a href="home.html"> <img src="images/mascot.jpg" height=100px title="home"> 
+           </div>
+           <ul class="nav navbar-nav">
+              <li><a href="casting.html"> Film info</a>
+              <li><a href="contract.html"> Contact Us</a>
+                <br> 
+                 
+                
+
+           </ul>
+        </div>
+     </nav>
+    <div>
+      
+        <div><h1 class="text-center">Think your dog is the next Air Bud? <br>Contact us.</h1></div>
+        
+         
+
+<!--https://getbootstrap.com/docs/4.1/components/forms/-->
+
+</body>
+<form> <br>
+    <form>
+        <div class="form-group">
+          <label for="input">Owner's Name</label>
+          <input type="dog" class="form-control" id="input11" placeholder="Not your dog's name">
+          <label for="input">Dog's name</label>
+          <input type="dog" class="form-control" id="input12" placeholder="Bonus points if they're named after a food">
+        </div>
+        <!--dropdown-->
+        <div class="form-group">
+          <label for="dogbreed">Breed of Dog</label>
+          <select class="form-control" id="dogbreed">
+            <option>Golden Retriever</option>
+            <option>Pug</option>
+            <option>Siberian Husky</option>
+            <option>Chow Chow</option>
+            <option>Dachund</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect2">Where did you find out about us</label>
+          <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>Online casting boards</option>
+            <option>The Dog Park</option>
+            <option>Youtube Ad</option>
+            <option>Friend</option>
+            <option>home</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="disclaimer info">Disclaimer</label>
+          <textarea class="form-control" id="disclaimer" rows="7">
+*We are only looking to cast the above listed breeds. If your dog isn't one of the listed breeds and you find them to be remarkable, feel free to contact us.
+*We are only looking for dogs who can follow basic commands. If your dog cannot sit and stay, sit and stay home.
+*Humans are required to be on set with their fur children.
+*Poor behavior such as pooping on set and licking the equipment will not be tolerated and your dog will be asked to leave.
+*Payment is to be issued after shooting is done, assuming your dog remains a good dog throughout. 
+*If you have any comments or concerns please leave a comment in this box.
+
+          </textarea>
+          
+        </div>
+      </form>
+    <!--form input-->
+    <div class="form-group">
+      <label for="email">Human's email</label>
+      <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="biscuits@paws.com">
+      <small id="email2" class="form-text text-muted">Don't be embarrased by your email address, ours is our dog's name too</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Phone Number</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="111-111-1111">
+    </div>
+    <div> 
+
+    <!--animation, paww-->
+      <div>
+        <div class="spinner-grow" role="alert">
+          <span class="agree"><img src="images/paw.jpg" alt="paw" height="50px" title="one pawclick away"><img src="" alt=""></span>
+        </div>
+    </div>
+    <div class="form-group form-check">
+      <input type="checkbox" class="form-check-input" id="checkbox1">
+      <label class="form-check-label" for="checkbox1">I agree to be emailed with dog pictures</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Bark at us</button>
+  </form>
+</html>

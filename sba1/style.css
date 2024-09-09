@@ -1,0 +1,12 @@
+/*__css page for home and contract pages, using primarily bootstrap, most css is internal and inline*/
+* {background-color:rgb(179, 190, 187);}
+h6 {color: rgb(108, 93, 176);
+font-style: italic; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.container {
+    border: 10px;
+    border-width: 10px;
+    border-color: blue;
+}
+
